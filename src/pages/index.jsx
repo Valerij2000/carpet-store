@@ -1,5 +1,7 @@
 import WelcomeSection from "@/components/Home/WelcomeSection/WelcomeSection";
 import FeatureSection from "@/components/Home/FeatureSection/FeatureSection";
+import BentoGridSection from "@/components/Home/BentoGridSection/BentoGridSection";
+import Feeds from "@/components/Feeds/Feeds";
 
 export const metadata = {
   title: "Ковры дорожки ковролин",
@@ -17,6 +19,8 @@ export default function Home() {
     <>
       <WelcomeSection />
       <FeatureSection />
+      <BentoGridSection />
+      <Feeds />
     </>
   );
 }
